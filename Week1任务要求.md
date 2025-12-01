@@ -1,8 +1,10 @@
 # Week 1
 
-## **Week1 主题：双系统安装 + 开发环境搭建 + Git 基础学习**
+## **Week1 任务书：双系统安装 + 开发环境搭建 + Git 基础学习**
 
-### **一、课程目标（Learning Objectives）**
+---
+
+## **一、课程目标（Learning Objectives）**
 
 通过本周学习，学生应能够：
 
@@ -19,7 +21,7 @@
 ### **1. 双系统安装（Win11 + Ubuntu20.04）**
 
 - BIOS 设置（UEFI、Secure Boot、启动顺序）
-- Windows 分区压缩与 Ubuntu 镜像写盘
+- Windows 分区压缩与 Ubuntu 镜像写盘（需要准备一个 U 盘制作系统盘）
 - 手动分区（EFI / SWAP / EXT4 Root）
 - GRUB 配置与启动菜单
 - 常见故障解决（黑屏、无法进入 Windows、引导修复）
@@ -98,29 +100,52 @@ git push -u origin main
 | 文件命名规范    | `team_张三_week1_draft.md(周五)` |
 |                 | `team_张三_week1_final.md(周天)` |
 
+实验报告参考格式：
+
+```markdown
+# Week1 实验报告
+
+## 1. 实验任务
+
+## 2. 实现过程（含主要步骤与截图）
+
+## 3. 遇到的问题与解决方法
+
+## 4. 总结与心得
+```
+
+---
+
 ## **四、提交方式（Submission）**
 
-请将本周所有内容上传至你的 GitHub 仓库：
-- 每个组有不同的链接
-- 每一次的作业链接会提前发布在群里
+请将本周所有内容上传至你的 GitHub 仓库（不同组的网址不同）：
+
+```
+https://classroom.github.com/classrooms/246406408-2025biuhcourse-classroom-group1
+```
 
 在提交时需要提交.md 文件以及内容材料（如实验截图、视频等，保存在创建的新文件夹中）。
+
+---
 
 ## **五、参考材料**
 
 ### **1. Ubuntu 系统安装**
 
--[Ubuntu20.04 双系统安装详解](https://blog.csdn.net/wyr1849089774/article/details/133387874)
+- [Ubuntu20.04 双系统安装详解](https://blog.csdn.net/wyr1849089774/article/details/133387874)
+- [Ubuntu 插件推荐](https://blog.csdn.net/muzihuaner/article/details/125438127)
 
 ### **2. VSCode 的安装与配置**
 
--[Ubuntu 环境下安装 VSCode](https://blog.csdn.net/LL596214569/article/details/106445990)
+- [Ubuntu 环境下安装 VSCode](https://blog.csdn.net/LL596214569/article/details/106445990)
 
 ### **3. Git 入门**
 
--[Github 入门教程](https://blog.csdn.net/black_sneak/article/details/139600633)\
--[Github 加速](https://blog.csdn.net/B11050729/article/details/132131659)
+- [Github 入门教程](https://blog.csdn.net/black_sneak/article/details/139600633)
+- [Github 加速](https://blog.csdn.net/B11050729/article/details/132131659)
 
 ### **4. Markdown 文件**
 
--[Markdown 教程](https://zhuanlan.zhihu.com/p/598132171)
+- [Markdown 教程](https://zhuanlan.zhihu.com/p/598132171)
+- [VSCode 环境下的 Markdown 插件推荐](https://zhuanlan.zhihu.com/p/707954367)
+- [Markdown 插入图片](https://blog.csdn.net/xapxxf/article/details/105133999)
